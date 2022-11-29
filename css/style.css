@@ -1,0 +1,31 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.table{
+	height:100vh;
+	display:flex;
+	align-items:center;
+}
+table{
+	width:80%;
+	margin:0 auto;
+}
+th{
+	text-align:left;
+	color:white;
+	padding:10px 0px;
+	background-color:green;
+	border:none;
+}
+thead{
+	background-color:green;
+}
+td{
+	padding:10px 0px;
+}
+tbody tr:nth-child(even){
+	background-color:lightgrey;
+}
